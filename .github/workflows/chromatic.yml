@@ -1,0 +1,30 @@
+name: Chromatic
+
+on: [push]
+
+jobs:
+  chromatic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Install dependencies
+        run: yarn
+
+      # 👇 Runs Chromatic as normal for your Storybook
+      - name: Publish to Chromatic
+        uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
+
+      # 👇 Runs your E2E tests
+      - name: E2E tests
+        run: yarn playwright test
+
+      # 👇 Runs Chromatic for your E2E test archives
+      - name: Publish E2E Archives to Chromatic
+        uses: chromaui/action@v1
+        # Chromatic GitHub Action options
+        with:
+          # 👇 This is the token for the second project
+          projectToken: ${{ secrets.CHROMATIC_ARCHIVE_PROJECT_TOKEN }}
+          buildScriptName: build-archive-storybook
