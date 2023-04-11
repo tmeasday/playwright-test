@@ -1,0 +1,19 @@
+{
+  "name": "playwright-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromaui/archive-storybook": "^0.0.4",
+    "@chromaui/test-archiver": "^0.0.4",
+    "@playwright/test": "^1.32.2"
+  },
+  "scripts": {
+    "archive-storybook": "archive-storybook",
+    "build-archive-storybook": "build-archive-storybook"
+  }
+}
