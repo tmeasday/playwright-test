@@ -1002,10 +1002,10 @@
   resolved "https://registry.yarnpkg.com/@chromaui/rrweb-snapshot/-/rrweb-snapshot-2.0.0-alpha.7-noAbsolute.2.tgz#20efa4772dc9ef7cac99f4d99ee191df879161a8"
   integrity sha512-vOVSOgfNyxomxm6ENMqm1C4rLkLLOlyEyhR5J2SKBALuFfuJHjhIqNLSOgqVRO9J3++AUOCktknyJ/F+mSvEfA==
 
-"@chromaui/test-archiver@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@chromaui/test-archiver/-/test-archiver-0.0.5.tgz#bf6dfe91ada67b2a899020f191ce94438658deea"
-  integrity sha512-9motXuPP3y8UH6gcPYfcfxi8OwxyoQlILhZewUegD8+VypL/fOPwfseNYOQZl/Z7ib0K83aXpdEE+KirUpo/3w==
+"@chromaui/test-archiver@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.yarnpkg.com/@chromaui/test-archiver/-/test-archiver-0.0.7.tgz#ef37c3b17856884672545680eb81125c91a87fea"
+  integrity sha512-SB5bXE0/pxYO32Pw3M1JMI/W3r8l33W47T7ZWTgeGlfFZ1W+F9zLFCVwT86Ljcpht269bUskOelvVLtYtUGYjA==
   dependencies:
     "@chromaui/rrweb-snapshot" "2.0.0-alpha.7-noAbsolute.2"
     fs-extra "^11.1.1"
