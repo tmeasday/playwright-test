@@ -15,4 +15,7 @@ test("get started link", async ({ page }) => {
 
   // Expects the URL to contain intro.
   await expect(page).toHaveURL(/.*intro/);
+
+  // Wait for the new page to fully render
+  await expect(page.locator("h1")).toContainText(/Installation/);
 });
