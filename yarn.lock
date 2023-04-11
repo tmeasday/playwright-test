@@ -987,10 +987,10 @@
     "@babel/helper-validator-identifier" "^7.19.1"
     to-fast-properties "^2.0.0"
 
-"@chromaui/archive-storybook@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@chromaui/archive-storybook/-/archive-storybook-0.0.4.tgz#5399d49a4e102e6c35462fc723887f10d98c5976"
-  integrity sha512-d5vWqTedpaLUREjAB4eOIF8Q2RyavilqJ0iMB5m3YP8DU1EJh4T4SRTVs9+oWNJJ2nu+fOPzrrMBueH0ovvxLQ==
+"@chromaui/archive-storybook@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@chromaui/archive-storybook/-/archive-storybook-0.0.5.tgz#3ea0cb4800fab08f948dfef05538c24ab78aa457"
+  integrity sha512-jtKWhImDnkhLOO8hsbkrFs8AJRUHKpGAQIPAxZqAjf04fvWWG9FaoH8G4I6dMivDZgwQldNtyyOQ5YRKARZjsQ==
   dependencies:
     "@chromaui/rrweb-snapshot" "2.0.0-alpha.7-noAbsolute.2"
     "@storybook/cli" "^7.0.2"
@@ -1002,10 +1002,10 @@
   resolved "https://registry.yarnpkg.com/@chromaui/rrweb-snapshot/-/rrweb-snapshot-2.0.0-alpha.7-noAbsolute.2.tgz#20efa4772dc9ef7cac99f4d99ee191df879161a8"
   integrity sha512-vOVSOgfNyxomxm6ENMqm1C4rLkLLOlyEyhR5J2SKBALuFfuJHjhIqNLSOgqVRO9J3++AUOCktknyJ/F+mSvEfA==
 
-"@chromaui/test-archiver@^0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@chromaui/test-archiver/-/test-archiver-0.0.4.tgz#fd752f96f6fbcc572195114e9751ef3962e9bfab"
-  integrity sha512-lY0Uxdr4uRCzFg2uzw6nBeKhrRRIW85RT+4QBQNWuhzJ31DKqwbY3GPRUGIZJX/hg24JJHOJjj5mmGQvu+8s/A==
+"@chromaui/test-archiver@^0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@chromaui/test-archiver/-/test-archiver-0.0.5.tgz#bf6dfe91ada67b2a899020f191ce94438658deea"
+  integrity sha512-9motXuPP3y8UH6gcPYfcfxi8OwxyoQlILhZewUegD8+VypL/fOPwfseNYOQZl/Z7ib0K83aXpdEE+KirUpo/3w==
   dependencies:
     "@chromaui/rrweb-snapshot" "2.0.0-alpha.7-noAbsolute.2"
     fs-extra "^11.1.1"
